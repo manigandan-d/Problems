@@ -6,9 +6,11 @@ int reverseNumber(int num);
 
 int main() {
     int num; 
+
+    cout << "Enter a number: ";
     cin >> num; 
 
-    cout << reverseNumber(num) << endl; 
+    cout << "Reversed number: " << reverseNumber(num) << endl; 
 
     return 0;
 }
